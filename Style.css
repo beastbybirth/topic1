@@ -4,22 +4,32 @@ body {
     
     #text{
         color : black ; 
-        text-align: left;
+        text-align: center;
         font-size: 80px;
         font-family:italic;
     }
     h1 {
-    color: white;
+    color: rgb(73, 37, 235);
     text-align: center;
     }
     
     p {
     font-family: verdana;
     font-size: 20px;
+    margin-left: 20px;
     }
 
     #heading{
         color: green ;
         font-size: 60px;
         font-weight: bold;
+    }
+    .section{
+        margin-top: 10px;
+        margin-inline-start: 30px;
+        border-style: double;
+        border-color: black;
+        border-width: 5px;
+        border-radius: 20px;
+        
     }
